@@ -105,7 +105,41 @@ body {
   height: 48px;
   border: #D2D2D2 0.5px solid;  
     box-shadow: #d2d2d2 2px 5px 6px;
-  background: linear-gradient(#FF79DA, #9356DC);
+ background: linear-gradient(#FF79DA, #9356DC);
+
+  position: relative;
+  z-index: 1;
+}
+
+#bannière__bouton::after {
+  content: "";
+  position: absolute;
+  top:-2px;
+  bottom: 0px;
+  right: 0px;
+  left: -2px;
+  z-index: -1;
+  display: block;
+  width: 180px;
+  font-family: Roboto;
+  color: white;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  border-radius: 25px;
+  height: 48px;
+  border: #D2D2D2 0.5px solid;  
+    box-shadow: #d2d2d2 2px 5px 6px;
+    background: linear-gradient(#FF79DA, #9356DC);
+    filter: brightness(1.2);
+    opacity: 0;
+    transition: opacity 250ms;
+    
+
+}
+
+#bannière__bouton:hover::after {
+  opacity: 1;
 }
 
 /* Section fonctionnement */
