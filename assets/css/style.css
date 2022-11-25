@@ -103,9 +103,9 @@ body {
   line-height: 16px;
   border-radius: 25px;
   height: 48px;
-  border: #D2D2D2 0.5px solid;  
-    box-shadow: #d2d2d2 2px 5px 6px;
- background: linear-gradient(#FF79DA, #9356DC);
+  border: #D2D2D2 0.5px solid;
+  box-shadow: #d2d2d2 2px 5px 6px;
+  background: linear-gradient(#FF79DA, #9356DC);
 
   position: relative;
   z-index: 1;
@@ -114,7 +114,7 @@ body {
 #bannière__bouton::after {
   content: "";
   position: absolute;
-  top:-2px;
+  top: -2px;
   bottom: 0px;
   right: 0px;
   left: -2px;
@@ -128,13 +128,13 @@ body {
   line-height: 16px;
   border-radius: 25px;
   height: 48px;
-  border: #D2D2D2 0.5px solid;  
-    box-shadow: #d2d2d2 2px 5px 6px;
-    background: linear-gradient(#FF79DA, #9356DC);
-    filter: brightness(1.2);
-    opacity: 0;
-    transition: opacity 250ms;
-    
+  border: #D2D2D2 0.5px solid;
+  box-shadow: #d2d2d2 2px 8px;
+  background: linear-gradient(#FF79DA, #9356DC);
+  filter: brightness(1.2);
+  opacity: 0;
+  transition: opacity 250ms;
+
 
 }
 
@@ -268,7 +268,7 @@ body {
   border-radius: 15px 15px 0px 0px;
 }
 
-.image__bouton  {
+.image__bouton {
   position: absolute;
   z-index: 1;
   top: 0px;
@@ -335,11 +335,45 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+
 }
+
+
 
 .fa-heart {
   font-size: 25px;
   color: #101010;
+  display: inline-block;
+  position: relative; 
+  z-index: 0; 
+}
+
+
+ 
+
+.fa-heart::after {
+  font-size: 25px;
+  content: "\f004";
+  display: inline-block;
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  right: 0px;
+  left: 0px; 
+  z-index: 1; 
+  background: linear-gradient(#FF79DA, #9356DC);
+  background-clip:border-box;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight:bold;
+  transition: opacity 1000ms ease-in-out;
+  opacity: 0;
+
+}
+
+.fa-heart:hover::after {
+opacity: 1;
+
 }
 
 /* Footer */
@@ -579,6 +613,8 @@ body {
   .fa-heart {
     font-size: 29px;
   }
+  .fa-heart::after {
+    font-size: 29px;}
 
   .main {
     height: 1500px;
@@ -633,10 +669,13 @@ body {
     height: 33px;
   }
 
-  .fa-mobile-screen, .fa-list-ul, .fa-store {
+  .fa-mobile-screen,
+  .fa-list-ul,
+  .fa-store {
     padding-right: 35px;
     padding-left: 20px;
   }
+
   .main {
     height: 1770px;
   }
@@ -658,6 +697,8 @@ body {
   .fa-heart {
     font-size: 33px;
   }
+  .fa-heart::after {
+    font-size: 33px;}
 
   .image__bouton {
     font-size: 22px;
@@ -745,10 +786,11 @@ body {
 
 
   }
+
   .ol__li::before {
     height: 37px;
     font-size: 18px;
-}
+  }
 
   .fa-mobile-screen,
   .fa-list-ul,
@@ -795,13 +837,13 @@ body {
   }
 
   .ol__li::before {
-    
-      width: 10%;
-      left: -14px;
-      font-size: 10px;
-      line-height: 12px;
-      height: 20px;
-   }
+
+    width: 10%;
+    left: -14px;
+    font-size: 10px;
+    line-height: 12px;
+    height: 20px;
+  }
 
   .fa-mobile-screen,
   .fa-list-ul,
@@ -961,6 +1003,8 @@ body {
   .fa-heart {
     font-size: 23px;
   }
+  .fa-heart::after {
+    font-size: 23px;}
 }
 
 
@@ -975,19 +1019,19 @@ body {
     font-size: 16px;
     width: 30%;
     height: 65px;
-    
+
 
   }
 
   .ol__li::before {
-    
-    
-      width: 10%;
-      left: -14px;
-      font-size: 12px;
-      line-height: 12px;
-      height: 22px;
-   }
+
+
+    width: 10%;
+    left: -14px;
+    font-size: 12px;
+    line-height: 12px;
+    height: 22px;
+  }
 
   .fa-mobile-screen,
   .fa-list-ul,
@@ -997,7 +1041,7 @@ body {
     padding-right: 10px;
 
   }
-  
+
 
   .fa-store {
     color: #9356DC;
@@ -1040,6 +1084,11 @@ body {
   .fa-heart {
     font-size: 25px;
   }
+  .fa-heart::after{
+    font-size: 25px;
+
+  }
+
 
   .image__bouton {
     font-size: 14px;
@@ -1049,23 +1098,25 @@ body {
     width: 50%;
   }
 
-  
+
 }
 
-@media screen and (min-width: 1024px){
+@media screen and (min-width: 1024px) {
   .ol__li::before {
     font-size: 14px;
     height: 26px;
   }
+
   .fa-mobile-screen,
   .fa-list-ul,
   .fa-store {
-    
+
     padding-right: 20px;
 
   }
 
 }
+
 @media screen and (min-width: 1100px) {
 
   .fa-mobile-screen,
@@ -1120,6 +1171,7 @@ body {
     height: 28px;
     width: 9%;
   }
+
   .fa-mobile-screen,
   .fa-list-ul,
   .fa-store {
@@ -1147,10 +1199,11 @@ body {
   }
 }
 
-@media screen and (min-width: 1300px){
+@media screen and (min-width: 1300px) {
   .ol__li::before {
     height: 30px;
 
   }
 }
+
 /*# sourceMappingURL=style.css.map */

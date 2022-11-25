@@ -102,6 +102,34 @@ body {
   font-size: 16px;
 }
 
+.fa-heart {
+  position: relative
+}
+
+.fa-heart::after {
+  display: inline-block;
+  content: "\f004";
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  right: 0px;
+  left: 0px;
+  z-index: 1;
+  background: linear-gradient(#FF79DA, #9356DC);
+  background-clip: border-box;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: bold;
+  transition: opacity 1000ms ease-in-out;
+  opacity: 0;
+
+}
+
+.fa-heart:hover::after {
+  opacity: 1;
+
+}
+
 /* menu */
 
 .menu {
@@ -237,9 +265,10 @@ body {
   border-radius: 25px;
   height: 48px;
   border: #EAEAEA 2px solid;
+  box-shadow: #d2d2d2 2px 8px;
   background: linear-gradient(#FF79DA, #9356DC);
   position: absolute;
-  top:-3px;
+  top: -3px;
   bottom: 0px;
   right: 0px;
   left: -2px;
