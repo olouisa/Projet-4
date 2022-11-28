@@ -160,17 +160,81 @@ body {
   padding-bottom: 5px;
 }
 
-.article {
+.article__checkbox {
   background-color: white;
   width: 95%;
   display: flex;
-  flex-direction: column;
+  /* flex-direction: row-reverse; */
   border-radius: 15px;
   justify-content: center;
   margin-bottom: 15px;
   height: 55px;
   margin-left: 15px;
   margin-right: 15px;
+}
+
+.article {
+  background-color: white;
+  width: 95%;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  border-radius: 15px;
+  justify-content: center;
+  /* margin-bottom: 15px; */
+  height: 55px;
+  /* margin-left: 15px;
+  margin-right: 15px; */
+}
+
+.a-check-box {
+  height: 55px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  text-decoration: none;
+  border-radius: 0px 15px 15px 0px;
+}
+
+.check-box {
+  width: 0px;
+  border-radius: 0px 15px 15px 0px;
+  background: #99E2D0;
+  height: 55px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 0;
+  opacity: 0;
+  transition: all 350ms ease-in-out;
+  transform-origin: 100%;
+
+}
+
+.fa-circle-check {
+  opacity: 0;
+  transition: all 0ms ease 50ms;
+  background: white;
+  border: #99E2D0 1px solid;
+  border-radius: 50px;
+  color: #99E2D0;
+  font-size: 25px;
+}
+
+.article:hover {
+  border-radius: 15px 0px 0px 15px;
+}
+
+
+.article__checkbox:hover .check-box {
+  opacity: 1;
+  width: 59px;
+
+}
+
+.article__checkbox:hover .fa-circle-check {
+  opacity: 1;
 }
 
 .article__h3 {
@@ -391,6 +455,19 @@ body {
     height: 65px;
   }
 
+  .check-box {
+    height: 65px;
+  }
+
+  .a-check-box {
+    height: 65px;
+  }
+
+  .article__checkbox {
+    height: 65px;
+
+  }
+
   .article__h3 {
     font-size: 16px;
     line-height: 19px;
@@ -466,6 +543,19 @@ body {
     height: 70px;
   }
 
+  .article__checkbox {
+    height: 70px;
+
+  }
+
+  .check-box {
+    height: 70px;
+  }
+
+  .a-check-box {
+    height: 70px;
+  }
+
   .footer--positionner {
     top: 1300px;
   }
@@ -508,6 +598,19 @@ body {
   }
 
   .article {
+    height: 75px;
+  }
+
+  .article__checkbox {
+    height: 75px;
+
+  }
+
+  .check-box {
+    height: 75px;
+  }
+
+  .a-check-box {
     height: 75px;
   }
 
