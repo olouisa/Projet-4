@@ -115,12 +115,12 @@ body {
   right: 0px;
   left: 0px;
   z-index: 1;
-  background: linear-gradient(#FF79DA, #9356DC);
+  background: linear-gradient(200.64deg, #9356DC -5.2%, #FF79DA 110.74%);
   background-clip: border-box;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-weight: bold;
-  transition: opacity 500ms ease-in-out;
+  transition: opacity 300ms ease-in-out;
   opacity: 0;
 
 }
@@ -340,10 +340,12 @@ body {
   line-height: 16px;
   border-radius: 25px;
   height: 48px;
-  border: #EAEAEA 2px solid;
-  background: linear-gradient(#FF79DA, #9356DC);
+  box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.25);
+  border: 0px solid;
+  background: linear-gradient(200.64deg, #9356DC -5.2%, #FF79DA 110.74%);
   z-index: 1;
   position: relative;
+
 }
 
 #main__bouton::after {
@@ -356,17 +358,17 @@ body {
   line-height: 16px;
   border-radius: 25px;
   height: 48px;
-  border: #EAEAEA 2px solid;
-  box-shadow: #d2d2d2 2px 8px;
-  background: linear-gradient(#FF79DA, #9356DC);
+  border: 0px solid;
+  box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.35);
+  background: linear-gradient(200.64deg, #9f77cf -5.2%, #fd98e0 110.74%);
+  
   position: absolute;
-  top: -3px;
+  top: 0px;
   bottom: 0px;
   right: 0px;
-  left: -2px;
-  filter: brightness(1.2);
+  left: 0px;
   opacity: 0;
-  transition: opacity 250ms;
+  transition: opacity 0ms;
   z-index: -1;
   content: "";
 
@@ -382,6 +384,10 @@ body {
 .footer--positionner2 {
   width: 100%;
   background-color: #353535;
+}
+
+#main__bouton:hover {
+  box-shadow: none;
 }
 
 .footer--positionner {
