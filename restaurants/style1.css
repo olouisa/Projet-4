@@ -120,7 +120,7 @@ body {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-weight: bold;
-  transition: opacity 1000ms ease-in-out;
+  transition: opacity 500ms ease-in-out;
   opacity: 0;
 
 }
@@ -128,6 +128,11 @@ body {
 .fa-heart:hover::after {
   opacity: 1;
 
+}
+
+.lien-coeur {
+  text-decoration: none;
+  color:black;
 }
 
 /* menu */
@@ -215,10 +220,8 @@ body {
 .fa-circle-check {
   opacity: 0;
   transition: all 0ms ease 50ms;
-  background: white;
-  border: #99E2D0 1px solid;
-  border-radius: 50px;
-  color: #99E2D0;
+  background: #99E2D0;
+  color: white;
   font-size: 25px;
 }
 

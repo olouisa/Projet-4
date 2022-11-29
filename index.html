@@ -17,13 +17,29 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&family=Shrikhand&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&family=Shrikhand&display=swap"
+        rel="stylesheet">
     <script src="https://kit.fontawesome.com/718b638e4f.js" crossorigin="anonymous"></script>
     <title>OhMyFood</title>
 </head>
 
+
 <body>
+
+    <div class="chargement">
+        <p class="chargement__txt">Loading</p>
+        <div class="load__circles">
+            <div class="load-circle load-circle--1"></div>
+            <div class="load-circle load-circle--2"></div>
+            <div class="load-circle load-circle--3"></div>
+            <div class="load-circle load-circle--4"></div>
+            <div class="load-circle load-circle--5"></div>
+        </div>
+    
+    </div>
+
+    <div class="conteneur">
     <header class="header">
         <div class="header__logo">
             <img src="assets/Images/ohmyfood.png" alt="logo" class="header__img" />
@@ -42,9 +58,9 @@
     <section class="bannière">
         <h1 class="bannière__h1">Réservez le menu qui vous convient</h1>
         <p class="bannière__p">Découvrez des restaurants d'exception, sélectionnés par nos soins.</p>
-        <p class="bannière__bouton"><button type="submit"  name="explorer" id="bannière__bouton">Explorer nos
+        <p class="bannière__bouton"><button type="submit" name="explorer" id="bannière__bouton">Explorer nos
                 restaurants</button></p>
-        </section>
+    </section>
 
     <section class="fonctionnement">
         <h1 class="fonctionnement__h1">Fonctionnement</h1>
@@ -58,37 +74,42 @@
     </section>
 
     <main class="main">
+        <h1 class="main__h1">Restaurants</h1>
         <section class="main__section">
             <article class="article"><a href="#" class="article__a">
                     <div class="article__image"><img src="assets/Images/N_Y88TWmGwA.png"
-                            alt="photo d'une assiette d'un plat gastronomique au saumon " class="article__photo" /><p class="image__bouton">Nouveau</p></div>
-                            <div class="article__bas">
-                    <div class="article__texte">
-                        <h2 class="article__h2">La palette du goût</h2>
-                        <p class="article__p">Ménilmontant</p>
+                            alt="photo d'une assiette d'un plat gastronomique au saumon " class="article__photo" />
+                        <p class="image__bouton">Nouveau</p>
                     </div>
-                    <div class="article__logo"><i class="fa-regular fa-heart"></i></div>
+                    <div class="article__bas">
+                        <div class="article__texte">
+                            <h2 class="article__h2">La palette du goût</h2>
+                            <p class="article__p">Ménilmontant</p>
+                        </div>
+                        <div class="article__logo"><i class="fa-regular fa-heart"></i></div>
                     </div>
                 </a>
             </article>
 
             <article class="article"><a href="#" class="article__a">
                     <div class="article__image"><img src="assets/Images/N_Y88TWmGwA2.png"
-                            alt="photo d'une assiette d'un plat gastronomique à la viande " class="article__photo"/><p class="image__bouton">Nouveau</p></div>
-                            <div class="article__bas">
-                                <div class="article__texte">
-                        <h2 class="article__h2">La note enchantée</h2>
-                        <p class="article__p">Charonne</p>
+                            alt="photo d'une assiette d'un plat gastronomique à la viande " class="article__photo" />
+                        <p class="image__bouton">Nouveau</p>
                     </div>
-                    <div class="article__logo"><i class="fa-regular fa-heart"></i></div>
+                    <div class="article__bas">
+                        <div class="article__texte">
+                            <h2 class="article__h2">La note enchantée</h2>
+                            <p class="article__p">Charonne</p>
+                        </div>
+                        <div class="article__logo"><i class="fa-regular fa-heart"></i></div>
                     </div>
                 </a>
             </article>
 
             <article class="article"><a href="#" class="article__a">
                     <div class="article__image"><img src="assets/Images/N_Y88TWmGwA3.png"
-                            alt="photo d'une assiette d'un plat gastronomique" class="article__photo"/></div>
-                            <div class="article__bas">
+                            alt="photo d'une assiette d'un plat gastronomique" class="article__photo" /></div>
+                    <div class="article__bas">
                         <div class="article__texte">
                             <h2 class="article__h2">À la française</h2>
                             <p class="article__p">Cité Rouge</p>
@@ -100,10 +121,11 @@
 
             <article class="article"><a href="#" class="article__a">
                     <div class="article__image"><img src="assets/Images/N_Y88TWmGwA4.png"
-                            alt="photo d'une assiette longue d'un plat gastronomique à base de poisson" class="article__photo"/></div>
-                   
-                            <div class="article__bas">
-                                <div class="article__texte">
+                            alt="photo d'une assiette longue d'un plat gastronomique à base de poisson"
+                            class="article__photo" /></div>
+
+                    <div class="article__bas">
+                        <div class="article__texte">
                             <h2 class="article__h2">Le délice des sens</h2>
                             <p class="article__p">Folie-Méricourt</p>
                         </div>
@@ -116,21 +138,23 @@
 
     <footer class="footer">
         <div class="footer__header">
-            <p class="footer__logo">ohmyfood            
+            <p class="footer__logo">ohmyfood
             </p>
         </div>
         <nav class="footer__nav">
             <ul class="footer__ul">
-                <li class="ul__li"><a href="#" class="ul__a"><i class="fa-solid  fa-solid--white fa-utensils"></i>Proposer un
+                <li class="ul__li"><a href="#" class="ul__a"><i
+                            class="fa-solid  fa-solid--white fa-utensils"></i>Proposer un
                         restaurant</a></li>
-                <li class="ul__li"><a href="#" class="ul__a"><i class="fa-solid fa-solid--white fa-handshake-angle"></i>Devenir
+                <li class="ul__li"><a href="#" class="ul__a"><i
+                            class="fa-solid fa-solid--white fa-handshake-angle"></i>Devenir
                         partenaire</a></li>
                 <li class="ul__li ul__li--petit"><a href="#" class="ul__a">Mentions légales</a></li>
                 <li class="ul__li ul__li--petit"><a href="#" class="ul__a ">contact</a></li>
             </ul>
         </nav>
     </footer>
-
+</div>
 </body>
 
 </html>
