@@ -977,9 +977,13 @@ width: 95%;
     left: 50px;
   }
   .article__checkbox:hover .check-box {
-    width: 16%;
+    width: 14%;
 }
 
-
+@media screen and (min-width: 1200px) {
+  .article__checkbox:hover .check-box {
+    width: 12%;
+}
+}
 
 }
