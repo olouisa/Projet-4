@@ -118,6 +118,7 @@ body {
   width: 100%;
   height: 55px;
   border-bottom: #D2D2D2 2px solid;
+  background-color: white;
 }
 
 .header__logo {
@@ -262,6 +263,7 @@ body {
 .fonctionnement {
   width: 100%;
   height: 400px;
+  background-color: white;
 }
 
 .fonctionnement__h1,
