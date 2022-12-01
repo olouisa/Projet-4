@@ -214,6 +214,8 @@ width: 95%;
   height: 55px;
   padding-left: 10px;
   padding-right: 5px;
+  transition: all 350ms ease-in-out;
+  transform-origin: right; 
 
   
   
@@ -248,7 +250,7 @@ width: 95%;
   align-items: center;
   z-index: 0;
   opacity: 0;
-  transition: all 150ms ease-in-out;
+  transition: all 350ms ease-in-out;
   transform-origin: right; 
 
 }
