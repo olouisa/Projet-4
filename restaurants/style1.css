@@ -190,7 +190,7 @@ body {
   padding-bottom: 5px;
 }
 
-.article__checkbox {
+.Checkbox {
   background-color: white;
   width: 95%;
   display: flex;
@@ -203,7 +203,7 @@ body {
   margin-right: 15px;
 }
 
-.article {
+.Checkbox__article {
   background-color: white;
 width: 95%;
   z-index: 1;
@@ -220,7 +220,7 @@ width: 95%;
   
   
 }
-.article__checkbox:hover .article {
+.Checkbox:hover .Checkbox__article {
   border-radius: 15px 0px 0px 15px;
   width: 78%;
   /* padding-left: 5px;
@@ -266,13 +266,13 @@ width: 95%;
 
 
 
-.article__checkbox:hover .check-box {
+.Checkbox:hover .check-box {
   opacity: 1;
   width: 17%;
 
 }
 
-.article__checkbox:hover .fa-circle-check {
+.Checkbox:hover .fa-circle-check {
   opacity: 1;
 }
 
@@ -497,7 +497,7 @@ width: 95%;
     font-size: 14px;
   }
 
-  .article {
+  .Checkbox__article {
     height: 65px;
   }
 
@@ -509,7 +509,7 @@ width: 95%;
     height: 65px;
   }
 
-  .article__checkbox {
+  .Checkbox {
     height: 65px;
 
   }
@@ -543,7 +543,7 @@ width: 95%;
     top: 210px;
   }
 
-  .article__checkbox:hover .check-box {
+  .Checkbox:hover .check-box {
     width: 15%;
 }
 
@@ -593,11 +593,11 @@ width: 95%;
     font-size: 25px;
   }
 
-  .article {
+  .Checkbox__article {
     height: 70px;
   }
 
-  .article__checkbox {
+  .Checkbox {
     height: 70px;
 
   }
@@ -654,11 +654,11 @@ width: 95%;
     font-size: 16px;
   }
 
-  .article {
+  .Checkbox__article {
     height: 75px;
   }
 
-  .article__checkbox {
+  .Checkbox {
     height: 75px;
 
   }
@@ -702,7 +702,7 @@ width: 95%;
   }
 
 
-  .article__checkbox:hover .check-box {
+  .Checkbox:hover .check-box {
     width: 12%;
 }
 
@@ -776,7 +776,7 @@ width: 95%;
     top: 320px;
   }
 
-  .article__checkbox:hover .check-box {
+  .Checkbox:hover .check-box {
     width: 10%;
 }
 
@@ -800,7 +800,7 @@ width: 95%;
 
   }
 
-  .article__checkbox:hover .check-box {
+  .Checkbox:hover .check-box {
     width: 9%;
 }
 
@@ -885,7 +885,7 @@ width: 95%;
     line-height: 18px;
   }
 
-  .article__checkbox:hover .check-box {
+  .Checkbox:hover .check-box {
     width: 17%;
 }
   .footer--positionner,
@@ -970,7 +970,7 @@ width: 95%;
 }
 
 @media screen and (min-width: 920px) {
-  .article__checkbox:hover .check-box {
+  .Checkbox:hover .check-box {
     width: 15%;
 }
 }
@@ -978,12 +978,12 @@ width: 95%;
   .fleche {
     left: 50px;
   }
-  .article__checkbox:hover .check-box {
+  .Checkbox:hover .check-box {
     width: 14%;
 }
 
 @media screen and (min-width: 1200px) {
-  .article__checkbox:hover .check-box {
+  .Checkbox:hover .check-box {
     width: 12%;
 }
 }
