@@ -1,3 +1,9 @@
+body {
+  width: 100%;
+  background-color: #EAEAEA;
+
+}
+
 .chargement {
   position: absolute;
   width: 100%;
@@ -92,11 +98,7 @@
   }
 }
 
-body {
-  width: 100%;
-  background-color: #EAEAEA;
 
-}
 
 .conteneur {
   width: 100%;

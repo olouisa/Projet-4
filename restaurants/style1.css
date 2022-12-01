@@ -497,6 +497,11 @@ width: 95%;
     font-size: 14px;
   }
 
+  .Checkbox {
+    height: 65px;
+
+  }
+
   .Checkbox__article {
     height: 65px;
   }
@@ -509,10 +514,7 @@ width: 95%;
     height: 65px;
   }
 
-  .Checkbox {
-    height: 65px;
-
-  }
+ 
   .fa-circle-check {
     font-size: 18px;
   }
@@ -593,14 +595,16 @@ width: 95%;
     font-size: 25px;
   }
 
-  .Checkbox__article {
-    height: 70px;
-  }
-
   .Checkbox {
     height: 70px;
 
   }
+
+  .Checkbox__article {
+    height: 70px;
+  }
+
+
 
   .check-box {
     height: 70px;
@@ -654,14 +658,15 @@ width: 95%;
     font-size: 16px;
   }
 
-  .Checkbox__article {
-    height: 75px;
-  }
-
   .Checkbox {
     height: 75px;
 
   }
+  .Checkbox__article {
+    height: 75px;
+  }
+
+  
 
   .check-box {
     height: 75px;
@@ -981,6 +986,7 @@ width: 95%;
   .Checkbox:hover .check-box {
     width: 14%;
 }
+}
 
 @media screen and (min-width: 1200px) {
   .Checkbox:hover .check-box {
@@ -988,4 +994,3 @@ width: 95%;
 }
 }
 
-}
