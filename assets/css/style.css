@@ -1,7 +1,17 @@
 body {
   width: 100%;
   background-color: #EAEAEA;
+  animation: body_overflow 10000ms both;
+}
 
+@keyframes body_overflow {
+  0% {
+    overflow: hidden;
+  }
+
+  100% {
+    overflow: auto;
+  }
 }
 
 .chargement {
