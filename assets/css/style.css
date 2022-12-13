@@ -146,7 +146,7 @@ body {
 
 .header__img {
   display: block;
-  width: 120px;
+  width: 145px;
 }
 
 /* Section recherche */
@@ -567,8 +567,8 @@ body {
   font-family: Roboto;
   font-style: normal;
   font-weight: 500;
-  font-size: 14px;
-  line-height: 17px;
+  font-size: 16px;
+  line-height: 19px;
   color: white;
   text-decoration: none;
   width: 100%;
@@ -636,6 +636,62 @@ body {
     width: 22%;
 
     /* height: 170px; */
+  }
+
+  .footer {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-start;
+    align-items: center;
+    height: 80px;
+  }
+
+  
+  .footer__header{
+    width: 20%;
+    background-color: #353535;
+
+  }
+
+  .footer__logo {
+    
+    width: 90%;
+    padding-left: 0px;
+    padding-bottom: 23px;
+    text-align: left;
+  }
+
+  .footer__nav {
+    width: 60%;
+    padding-bottom: 0px;
+    padding-left: 0px;
+  }
+
+  .footer__ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin: 0px;
+  }
+
+  .ul__li {
+    width: 30%;
+    text-align: center;
+
+  }
+
+  .ul__li--petit {
+    width: 20%;
+  }
+
+  .ul__a {
+    display: block;
+   
+    width: 100%;
   }
 
 }

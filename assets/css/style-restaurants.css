@@ -33,21 +33,21 @@ body {
 
 .header__img {
   display: block;
-  width: 120px;
+  width: 145px;
   object-fit: cover;
 }
 
 /* Bannière */
 .banniere {
   width: 100%;
-  height: 180px;
+  /* height: 180px; */
 }
 
 
 .banniere__photo {
   width: 100%;
   object-fit: cover;
-  height: 180px;
+  height: 275px;
 }
 
 .banniere__image {
@@ -60,47 +60,49 @@ body {
 .main {
   background-color: #f7f7f7;
   display: flex;
-  border-radius: 30px 30px 0px 0px;
+  border-radius: 40px 40px 0px 0px;
   flex-direction: column;
   position: absolute;
   justify-content: center;
   align-items: center;
-  top: 195px;
-  width: 100%;
-  height: 920px;
+  top: 297px;
+    width: 100%;
+  /* height: 920px; */
 }
 
 .main--grand {
-  height: 1000px;
-  top: 200px;
+  top: 288px;  
 }
 
 .main__header {
-  width: 100%;
+  width: 253px;
   margin: 0px;
   display: flex;
   justify-content: space-between;
-  padding-top: 15px;
+  /* padding-top: 15px; */
+}
+.main__header--grand {
+  width: 307px;
+  
 }
 
 .main__h1 {
-  font-size: 16px;
-  line-height: 18px;
+  font-size: 28px;
+  line-height: 40px;
   font-family: Shrikhand;
   font-weight: 400;
   font-style: italic;
-  width: 80%;
-  padding-left: 20px;
+  /* width: 80%; */
+  /* padding-left: 20px; */
 
 }
 
 .main__coeur {
-  width: 20%;
+  /* width: 20%; */
   display: block;
   align-self: center;
-  text-align: start;
-  font-size: 16px;
-}
+  text-align:center;
+  font-size: 22px;}
 
 .fa-heart {
   position: relative
@@ -171,8 +173,8 @@ body {
 
 .menu__h2 {
   font-family: Roboto;
-  font-size: 12px;
-  line-height: 14px;
+  font-size: 16px;
+  line-height: 19px;
   font-weight: 300;
   padding-left: 2px;
   text-transform: uppercase;
@@ -194,7 +196,6 @@ body {
   background-color: white;
   width: 95%;
   display: flex;
-  /* flex-direction: row-reverse; */
   border-radius: 15px;
   justify-content: space-between;
   margin-bottom: 15px;
@@ -223,9 +224,7 @@ width: 95%;
 .Checkbox:hover .Checkbox__article {
   border-radius: 15px 0px 0px 15px;
   width: 78%;
-  /* padding-left: 5px;
-  padding-right: 5px; */
-  
+
 }
 
 
@@ -278,15 +277,13 @@ width: 95%;
 
 .article__h3 {
   width: 100%;
-  font-size: 14px;
-  line-height: 17px;
+  font-size: 18px;
+  line-height: 21px;
   font-family: Roboto;
   font-style: normal;
   font-weight: 500;
   margin-bottom: 0px;
   margin-top: 0px;
-  /* padding-right: 5px;
-  padding-left: 3px; */
   text-overflow: ellipsis;
   font-style: normal;
   overflow: hidden;
@@ -305,13 +302,12 @@ width: 95%;
   width: 80%;
   margin-top: 0px;
   margin-bottom: 0px;
-  font-size: 12px;
-  line-height: 15px;
+  font-size: 15px;
+  line-height: 18px;
   font-family: Roboto;
   font-weight: 300;
   font-style: normal;
   padding-right: 10px;
-  /* padding-left: 3px; */
   padding-top: 5px;
   text-overflow: ellipsis;
   font-style: normal;
@@ -328,7 +324,8 @@ width: 95%;
   font-family: 'Roboto';
   font-weight: 500;
   font-style: normal;
-  font-size: 13px;
+  font-size: 15px;
+  line-height: 18px;
   display: flex;
   align-self: self-end
 }
@@ -343,14 +340,14 @@ width: 95%;
 
 #main__bouton {
   display: block;
-  width: 180px;
+  width: 186px;
   font-family: Roboto;
   color: white;
   font-weight: 500;
-  font-size: 14px;
-  line-height: 16px;
+  font-size: 16px;
+  line-height: 19px;
   border-radius: 25px;
-  height: 48px;
+  height: 50px;
   box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.25);
   border: 0px solid;
   background: linear-gradient(200.64deg, #9356DC -5.2%, #FF79DA 110.74%);
@@ -361,14 +358,14 @@ width: 95%;
 
 #main__bouton::after {
   display: block;
-  width: 180px;
+  width: 186px;
   font-family: Roboto;
   color: white;
   font-weight: 500;
-  font-size: 14px;
-  line-height: 16px;
+  font-size: 16px;
+  line-height: 19px;
   border-radius: 25px;
-  height: 48px;
+  height: 50px;
   border: 0px solid;
   box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.35);
   background: linear-gradient(200.64deg, #9f77cf -5.2%, #fd98e0 110.74%);
@@ -403,13 +400,11 @@ width: 95%;
 
 .footer--positionner {
   position: absolute;
-  top: 1115px;
-}
+  top: 1270px;}
 
 .footer--positionner2 {
   position: absolute;
-  top: 1200px;
-
+  top: 1332px;
 }
 
 .footer__header {
@@ -457,15 +452,100 @@ width: 95%;
   font-family: Roboto;
   font-style: normal;
   font-weight: 500;
-  font-size: 14px;
-  line-height: 17px;
+  font-size: 16px;
+  line-height: 19px;
   color: white;
   text-decoration: none;
   width: 100%;
 }
 
+@media screen and (min-width: 768px) {
+ 
+  .main__header--grand {
+    width: 318px;
+}
 
-@media screen and (min-width: 300px) {
+  .Checkbox:hover .Checkbox__article {
+    width: 90%;
+}
+
+.Checkbox:hover .check-box {
+  width: 10%;
+}
+}
+
+@media screen and (min-width: 1024px) {
+  .main {
+    width: 70%;
+    right: 15%;
+ 
+
+  }
+
+  .menu {
+    width: 63%;
+  }
+
+  .footer--positionner,
+  .footer--positionner2 {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-start;
+    align-items: center;
+    height: 80px;
+  }
+
+  
+  .footer__header--positionner {
+    width: 20%;
+    background-color: #353535;
+
+  }
+
+  .footer__logo--positionner {
+    
+    width: 90%;
+    padding-left: 0px;
+    padding-bottom: 23px;
+    text-align: left;
+  }
+
+  .footer__nav--positionner {
+    width: 60%;
+    padding-bottom: 0px;
+    padding-left: 0px;
+  }
+
+  .footer__ul--positionner {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin: 0px;
+  }
+
+  .ul__li--positionner {
+    width: 30%;
+    text-align: center;
+
+  }
+
+  .ul__li--petit {
+    width: 20%;
+  }
+
+  .ul__a--positionner {
+    display: block;
+   
+    width: 100%;
+  }
+}
+/* 
+
+ @media screen and (min-width: 300px) {
 
   .main__h1,
   .main__coeur {
@@ -613,9 +693,7 @@ width: 95%;
   .a-check-box {
     height: 70px;
   }
-  /* .fa-circle-check {
-    font-size: 22px;
-  } */
+  
 
   .footer--positionner {
     top: 1300px;
@@ -694,7 +772,7 @@ width: 95%;
   .footer--positionner2 {
     top: 1515px;
   }
-}
+} 
 
 @media screen and (min-width: 500px) {
 
@@ -760,9 +838,9 @@ width: 95%;
   .footer--positionner2 {
     top: 1536px;
   }
-}
+} */
 
-@media screen and (min-width: 650px) {
+/* @media screen and (min-width: 650px) {
   .banniere {
     height: 320px;
   }
@@ -986,11 +1064,11 @@ width: 95%;
   .Checkbox:hover .check-box {
     width: 14%;
 }
-}
-
+} */
+/* 
 @media screen and (min-width: 1200px) {
   .Checkbox:hover .check-box {
     width: 12%;
 }
-}
+} */
 
